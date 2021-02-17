@@ -8,9 +8,10 @@ public class Tableau1{
       
       public Tableau1 () {
 		  Scanner sc = new Scanner(System.in);
-          System.out.println("Bienvenue dans notre jeu de pipopipette PvP");
+          System.out.println("PIPOPIPETTE MODE PVP");
           System.out.println("Choisissez votre taille de jeu:");
           
+	      // Creer tableau
           System.out.println("Hauteur y (2 < y < 6): ");
           this.hauteur = sc.nextInt();
           while (2>this.hauteur || this.hauteur>=6) {
