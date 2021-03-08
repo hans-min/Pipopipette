@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Tableau1{
-      int longeur;
+      int longeur;                                                             
       int hauteur;
       String[][] Tableau;
       int move;
@@ -12,14 +12,14 @@ public class Tableau1{
           System.out.println("Choisissez votre taille de jeu:");
           
 	      // Creer tableau
-          System.out.println("Hauteur y (2 < y < 6): ");
+          System.out.println("Hauteur y (2 < y < 6): ");                                                      //choisir nombre de ligne (y)
           this.hauteur = sc.nextInt();
           while (2>this.hauteur || this.hauteur>=6) {
 		      System.out.print("Bah qu'est ce que je viens de dire ? Choisissez un different numero: ");
 		      this.hauteur = sc.nextInt();
 	          }
 	          
-          System.out.println("Longeur x (2 < x < 6): ");
+          System.out.println("Longeur x (2 < x < 6): ");                                                      //nombre de colonne (x)
           this.longeur = sc.nextInt();
           while (2>longeur || longeur>6) {
               System.out.print("Bah qu'est ce que je viens de dire ? Choisissez un different numero: ");
